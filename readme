@@ -1,0 +1,211 @@
+# 🎯 Claude Recruiter Skills
+
+> **IT** — Framework di skill per Claude pensato per recruiter IT: freelance, consulenti in agenzia e Talent Acquisition interni.  
+> **EN** — A Claude skill framework built for IT recruiters: freelancers, agency consultants, and in-house Talent Acquisition.
+
+---
+
+## 📦 Contenuto del pacchetto / Package contents
+recruiter-skills-v9.zip
+│
+├── recruiter-kickoff/
+│   ├── SKILL.md                         # Kick-off con il cliente / Client kick-off
+│   └── references/
+│       ├── compensation-it.md           # RAL → netto, CCNL, stock option, ACI
+│       ├── flusso-lavoro.md             # 10 fasi dal kick-off al placement
+│       ├── tech-stack-glossary.md       # Stack IT, sinonimi ruoli, booleane, pool size
+│       ├── stakeholder-map.md           # 7 profili stakeholder + strategie
+│       └── time-management.md           # Matrice Q1-Q4, planning, BD pipeline
+│
+├── recruiter-candidate/
+│   ├── SKILL.md                         # Ciclo candidato / Candidate lifecycle
+│   └── references/
+│       ├── imprevisti-negoziazione.md   # Ghosting, obiezioni, negoziazione avanzata
+│       └── feedback-comunicazioni.md    # Script feedback clienti e candidati
+│
+└── recruiter-advisory/
+└── SKILL.md                         # Advisory per agenzie / Agency advisory
+---
+
+## 🚀 Installazione / Installation
+
+**Prerequisiti / Prerequisites**
+
+- Account Claude.ai (qualsiasi piano / any plan: Free, Pro, Max, Team, Enterprise)
+- Code Execution attivo → **Impostazioni → Funzionalità → Esecuzione codice e creazione file**
+- Code Execution enabled → **Settings → Features → Code execution and file creation**
+
+**Steps**
+
+| # | Italiano | English |
+|---|---|---|
+| 1 | Vai su **claude.ai** | Go to **claude.ai** |
+| 2 | Foto profilo → **Impostazioni** | Profile photo → **Settings** |
+| 3 | Funzionalità → attiva **Esecuzione codice** | Features → enable **Code Execution** |
+| 4 | **Personalizza → Skill** | **Customize → Skills** |
+| 5 | **"+"** → "Crea skill" → "Carica file" | **"+"** → "Create skill" → "Upload file" |
+| 6 | Seleziona `recruiter-skills-v9.zip` | Select `recruiter-skills-v9.zip` |
+| 7 | Verifica i 3 toggle attivi | Verify all 3 toggles are enabled |
+
+> ⚠️ **Non decomprimere lo ZIP prima di caricarlo. / Do not unzip before uploading.**
+
+---
+
+## 🧠 Come funziona / How it works
+
+Le skill si attivano **automaticamente** in base al contesto della conversazione — nessun comando da ricordare. Incolla i materiali grezzi (transcript, CV, brief) e Claude sa già cosa farne.
+
+Skills activate **automatically** based on conversation context — no commands to remember. Paste raw materials (transcripts, CVs, briefs) and Claude knows what to do.
+
+---
+
+## ⚡ Trigger rapidi / Quick triggers
+
+### 🎯 recruiter-kickoff
+
+| Scrivi / Write | Ottieni / You get |
+|---|---|
+| `"Domani ho kick-off con [azienda]. Aiutami a prepararmi."` | Ricerca pre-call + domande challenger / Pre-call research + challenger questions |
+| `"Ecco il transcript del kick-off. Riscrivimi la JD."` | JD riscritta per LinkedIn / LinkedIn-ready rewritten JD |
+| `"Il cliente vuole cambiare i requisiti a metà ricerca"` | Gestione scope creep / Scope creep management |
+| `"Ho 5 mandati aperti, come organizzo la settimana?"` | Piano settimanale Q1-Q4 / Weekly Q1-Q4 plan |
+
+### 👤 recruiter-candidate
+
+| Scrivi / Write | Ottieni / You get |
+|---|---|
+| `"Analizza questo CV per [ruolo]"` + CV | Triage Tier 1/2/KO + domande colloquio / Triage + interview questions |
+| `"Fai la scorecard di [nome]"` + transcript + CV | Scorecard completa con risk matrix / Full scorecard with risk matrix |
+| `"Devo dare un KO senza motivazione dal cliente"` | Feedback plausibile costruito dai dati / Plausible feedback built from data |
+| `"Il candidato tentenna ed è il nostro unico profilo"` | Script per spingere senza pressare / Script to push without pressuring |
+| `"Il candidato si è ritirato — come lo comunico?"` | Comunicazione delicata con soluzione pronta / Sensitive script with solution ready |
+| `"Qual è il netto per RAL 65k Metalmeccanico?"` | Tabella RAL ufficiale / Official salary table |
+| `"Quanto è il preavviso per un Senior con Commercio?"` | Preavvisi SINDA CARE CISL / Official notice periods |
+
+### 🏢 recruiter-advisory
+
+| Scrivi / Write | Ottieni / You get |
+|---|---|
+| `"Fai la diagnosi del processo dell'agenzia"` | Report as-is con gap e quick win / As-is report with gaps and quick wins |
+| `"Valuta questo recruiter"` + esempi di lavoro | Scheda valutazione 6 dimensioni / 6-dimension evaluation sheet |
+| `"Quali KPI dovremmo monitorare?"` | Dashboard KPI per agenzia / Agency KPI dashboard |
+
+---
+
+## 📋 Flusso di lavoro / Workflow
+FASE 0   Acquisizione mandato    →  Contratto firmato prima di tutto / Signed contract first
+FASE 1   Preparazione kick-off  →  Deep search azienda + domande / Company research + questions
+FASE 2   Kick-off               →  Compensation, ruolo, team, MoSCoW, processo, sourcing
+FASE 3   Post kick-off          →  JD riscritta + scorecard draft + strategia sourcing
+FASE 4   Sourcing e triage CV   →  Tier 1/2/KO — contattare Tier 1 entro 24-48h
+FASE 5   Outreach               →  LinkedIn 300 char o WhatsApp personalizzato
+FASE 6   Colloquio candidato    →  3 blocchi: contrattuale → tecnico → motivazionale
+FASE 7   Scorecard              →  Pre-screening + valutazione + executive assessment + risk matrix
+FASE 8   Gestione iter          →  Feedback entro 48h — se generico, ricostruirlo dai dati
+FASE 9   Pre-offerta            →  Scala 1-10, tabella 90%/50%/5%, lettera solo con sì netto
+FASE 10  Post-firma             →  Check-in pre-start, prevenire ghosting, raccogliere referral
+
+**Timing mercato IT Milano / Milan IT market timing**
+
+- Kick-off → prima shortlist: **1-2 settimane / weeks**
+- Feedback cliente max: **48h**
+- Candidato presentato → step schedulato: **5 giorni / days**
+- Time-to-hire target: **4-8 settimane / weeks**
+
+---
+
+## 💰 Schema Retributivo / Salary Framework (Italy)
+
+Fonte / Source: Schema Retributivo Candidati ufficiale — valori indicativi / official, indicative values.  
+Costo azienda / Employer cost ≈ RAL × 1.30
+
+| RAL | Netto/mese 13 men. | Netto/mese 14 men. |
+|---|---|---|
+| €30.000 | €1.757 | €1.645 |
+| €40.000 | €2.122 | €1.972 |
+| €50.000 | €2.500 | €2.323 |
+| €60.000 | €2.880 | €2.677 |
+| €70.000 | €3.263 | €3.032 |
+| €80.000 | €3.646 | €3.387 |
+| €90.000 | €4.028 | €3.743 |
+| €100.000 | €4.411 | €4.098 |
+| €110.000 | €4.794 | €4.454 |
+| €120.000 | €5.177 | €4.809 |
+
+---
+
+## 📅 Preavvisi CCNL / Notice Periods upon Resignation
+
+Fonte / Source: SINDA CARE CISL — dimissioni / resignation (non licenziamento / not dismissal).
+
+### CCNL Commercio / Terziario
+
+| Livello / Level | ≤ 5 anni | 5-10 anni | > 10 anni |
+|---|---|---|---|
+| Quadri, 1° livello / Managers | 45 gg | 60 gg | 90 gg |
+| 2°, 3° livello | 20 gg | 30 gg | 45 gg |
+| 4°, 5° livello | 15 gg | 20 gg | 30 gg |
+| 6°, 7° livello | 10 gg | 15 gg | 15 gg |
+
+### CCNL Metalmeccanico Federmeccanica
+
+| Categoria / Category | ≤ 5 anni | 5-10 anni | > 10 anni |
+|---|---|---|---|
+| 4°-5°-5°S (impiegato/tecnico / employee) | 1 mese e 15 gg | 2 mesi | 2 mesi e 15 gg |
+| 6°-7°-8°Q (quadro/senior / manager) | 2 mesi | 3 mesi | 4 mesi |
+
+### Mapping IT / Practical IT mapping
+
+| Profilo / Profile | Commercio | Metalmeccanico |
+|---|---|---|
+| Junior dev (0-3 anni) | 15-20 gg | 10 gg - 1 mese |
+| Mid dev (3-6 anni) | 20-30 gg | 1-2 mesi |
+| Senior dev (6+ anni) | 30-45 gg | 2-3 mesi |
+| Tech Lead / Staff Eng. | 45 gg | 2-3 mesi |
+| Eng. Manager / Quadro | 60-90 gg | 3-4 mesi |
+
+> ⚠️ Chiedere sempre il **livello contrattuale**, non il titolo. / Always ask for the **contractual level**, not the job title.
+
+---
+
+## 📚 Reference files inclusi / Included reference files
+
+| File | Contenuto / Content |
+|---|---|
+| `compensation-it.md` | Tabella RAL €18k-€120k, CCNL, P.IVA, stock option (vesting/cliff/liquidity event), auto aziendale ACI, MBO |
+| `flusso-lavoro.md` | Processo end-to-end in 10 fasi con input/output per step, timing mercato IT Milano, segnali di allerta |
+| `tech-stack-glossary.md` | Stack IT (Go, Java, Python, DevOps, Data, AI…), sinonimi ruoli LinkedIn, booleane pronte, pool size Milano |
+| `stakeholder-map.md` | 7 profili (Sabotatore, Sostenitore, Gigante Sopito…) con strategie di gestione nel contesto recruitment |
+| `time-management.md` | Matrice Q1-Q4 urgenza×valore, struttura settimana tipo, gestione mandati paralleli, forecast fatturato |
+| `imprevisti-negoziazione.md` | Ghosting candidati/clienti, obiezioni (età/RAL/feedback generico), psicologia candidato, negoziazione avanzata, cliente che chiude posizioni |
+| `feedback-comunicazioni.md` | Script feedback positivo/negativo al cliente, KO senza evidenze, ritiro candidato, candidato che tentenna, come comunicare situazione mercato difficile |
+
+---
+
+## ✅ Do / ❌ Don't
+
+| ✅ Funziona bene / Works well | ❌ Tieni a mente / Keep in mind |
+|---|---|
+| Incollare transcript grezzi e chiedere output strutturati | Ogni chat riparte da zero — nessuna memoria tra sessioni |
+| Scorecard con tutti e 3 gli input: kick-off + CV + colloquio | Tabelle RAL sono indicative — variano con detrazioni personali |
+| Costruire feedback KO plausibili senza evidenze dal cliente | I dati candidati vanno nell'ATS, non in Claude |
+| Gestire stallo, obiezioni, negoziazione, comunicazioni difficili | Per news molto recenti chiedere esplicitamente una web search |
+| Prioritizzare mandati e pianificare la settimana | Non archiviare informazioni riservate su persone in chat |
+
+---
+
+## 🌐 Lingue / Languages
+
+Le skill funzionano in **italiano e inglese**. Claude risponde nella lingua del messaggio.  
+Skills work in **Italian and English**. Claude responds in the language of your message.
+
+---
+
+## 📄 Licenza / License
+
+Uso personale e professionale. Non ridistribuire senza autorizzazione.  
+Personal and professional use. Do not redistribute without permission.
+
+---
+
+<p align="center"><code>recruiter-skills-v9</code> · Aprile / April 2026</p>
